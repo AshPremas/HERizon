@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.HERizon" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.HERizon" parent="Theme.MaterialComponents.DayNight.DarkActionBar" />
+<!--    <style name="Theme.HERizon" parent="android:Theme.Material.Light.NoActionBar" />-->
 </resources>

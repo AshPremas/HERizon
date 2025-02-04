@@ -49,92 +49,77 @@
 
     <Button
         android:id="@+id/button6"
-        android:layout_width="130dp"
+        android:layout_width="300dp"
         android:layout_height="50dp"
-        android:background="#CD86DC"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#CD86DC"
         android:text="Leadership"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.575" />
+        app:layout_constraintBottom_toTopOf="@+id/button8"
+        app:layout_constraintEnd_toEndOf="@+id/button8"
+        app:layout_constraintHorizontal_bias="0.106"
+        app:layout_constraintStart_toStartOf="@+id/button8"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:layout_constraintVertical_bias="0.128" />
 
     <Button
         android:id="@+id/button7"
-        android:layout_width="167dp"
+        android:layout_width="300dp"
         android:layout_height="55dp"
-        android:background="#E0759C"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#E0759C"
         android:text="Entrepreneurship"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.131"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.67" />
+        app:layout_constraintBottom_toTopOf="@+id/button10"
+        app:layout_constraintEnd_toEndOf="@+id/button10"
+        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintStart_toStartOf="@+id/button10"
+        app:layout_constraintTop_toBottomOf="@+id/button9"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/button8"
-        android:layout_width="130dp"
+        android:layout_width="300dp"
         android:layout_height="50dp"
-        android:background="#E0759C"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#E0759C"
         android:text="Digital Skills"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.575" />
+        app:layout_constraintBottom_toTopOf="@+id/button9"
+        app:layout_constraintEnd_toEndOf="@+id/button9"
+        app:layout_constraintHorizontal_bias="0.565"
+        app:layout_constraintStart_toStartOf="@+id/button9"
+        app:layout_constraintTop_toBottomOf="@+id/button6"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/button9"
-        android:layout_width="130dp"
+        android:layout_width="300dp"
         android:layout_height="50dp"
-        android:background="#CD86DC"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#CD86DC"
         android:text="Videos"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.996"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.575" />
+        app:layout_constraintBottom_toTopOf="@+id/button7"
+        app:layout_constraintEnd_toEndOf="@+id/button7"
+        app:layout_constraintHorizontal_bias="0.929"
+        app:layout_constraintStart_toStartOf="@+id/button7"
+        app:layout_constraintTop_toBottomOf="@+id/button8"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/button10"
-        android:layout_width="172dp"
+        android:layout_width="300dp"
         android:layout_height="52dp"
-        android:background="#CD86DC"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#CD86DC"
         android:text="Financial Learning"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.891"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.667" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="218dp"
-        android:layout_height="205dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.992"
-        app:srcCompat="@drawable/_3" />
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="200dp"
-        android:layout_height="208dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.995"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.992"
-        app:srcCompat="@drawable/fin" />
+        app:layout_constraintTop_toBottomOf="@+id/button7"
+        app:layout_constraintVertical_bias="0.155" />
 
     <TextView
         android:id="@+id/textView8"
@@ -152,15 +137,16 @@
         app:layout_constraintVertical_bias="0.237" />
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/btnBackLearningHub"
         android:layout_width="60dp"
         android:layout_height="51dp"
-        android:background="#DCB5E6"
-        android:text="<"
+        android:background="#00FFFFFF"
+        android:text="&lt;"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.001" />
+        app:layout_constraintVertical_bias="0.023" />
 </androidx.constraintlayout.widget.ConstraintLayout>

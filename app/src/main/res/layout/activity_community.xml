@@ -9,17 +9,33 @@
     tools:context=".Community">
 
     <Button
+        android:id="@+id/btnBackCommunity"
+        android:layout_width="60dp"
+        android:layout_height="51dp"
+        android:background="#00FFFFFF"
+        android:text="&lt;"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <Button
         android:id="@+id/button19"
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:background="#CD86DC"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#CD86DC"
+        android:padding="10dp"
         android:text="Seek Advice"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintHorizontal_bias="0.191"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.607" />
+        app:layout_constraintVertical_bias="0.623" />
 
     <TextView
         android:id="@+id/textView12"
@@ -37,55 +53,60 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="384dp"
-        android:layout_height="301dp"
+        android:layout_width="378dp"
+        android:layout_height="236dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.125"
+        app:layout_constraintVertical_bias="0.159"
         app:srcCompat="@drawable/login" />
 
     <TextView
         android:id="@+id/textView13"
-        android:layout_width="329dp"
-        android:layout_height="54dp"
+        android:layout_width="333dp"
+        android:layout_height="40dp"
         android:text="&quot;There is no force more powerful than a women determined to rise&quot;"
+        android:textAlignment="center"
         android:textColor="#3A1142"
-        android:textSize="20sp"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.67"
+        app:layout_constraintHorizontal_bias="0.641"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.455" />
 
     <Button
         android:id="@+id/button17"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#CD86DC"
+        android:layout_height="50dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#CD86DC"
+        android:padding="10dp"
         android:text="Share Experience"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.607" />
+        app:layout_constraintVertical_bias="0.534" />
 
     <Button
         android:id="@+id/button18"
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:background="#CD86DC"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#CD86DC"
+        android:padding="10dp"
         android:text="Q and A"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.894"
+        app:layout_constraintHorizontal_bias="0.835"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.607" />
+        app:layout_constraintVertical_bias="0.623" />
 
     <ImageView
         android:id="@+id/imageView13"
