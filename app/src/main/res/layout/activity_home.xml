@@ -49,7 +49,7 @@
         app:srcCompat="@drawable/_2" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnLearningHub"
         android:layout_width="350dp"
         android:layout_height="55dp"
         android:background="@drawable/roundstyle"
@@ -64,7 +64,7 @@
         app:layout_constraintVertical_bias="0.38" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnPersonalSafety"
         android:layout_width="350dp"
         android:layout_height="54dp"
         android:background="@drawable/roundstyle"
@@ -79,7 +79,7 @@
         app:layout_constraintVertical_bias="0.481" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btnCommunity"
         android:layout_width="350dp"
         android:layout_height="53dp"
         android:background="@drawable/roundstyle"
@@ -94,10 +94,10 @@
         app:layout_constraintVertical_bias="0.581" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btnBack"
         android:layout_width="60dp"
         android:layout_height="51dp"
-        android:background="transparent"
+        android:background="#00FFFFFF"
         android:textSize="14sp"
         android:text="&lt;"
         app:layout_constraintBottom_toBottomOf="parent"
