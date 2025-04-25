@@ -78,4 +78,10 @@
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/bg" />
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/moduleRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
